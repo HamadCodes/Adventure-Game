@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer"
 
 let enemies:string[] = ["Skeleton","Zombie","Warrior","Assassin"]
@@ -71,7 +73,7 @@ while(isRunning){
     }
     
     if(health<1){
-        console.log(`You linp out of the dungeon, weak from battle. Your score is ${score}`);
+        console.log(`You limp out of the dungeon, weak from battle. Your score is ${score}`);
         break
     }
     
@@ -99,7 +101,7 @@ while(isRunning){
         break
     }
 }
- console.log("########################");
+ console.log("\n\n\n########################");
  console.log("## Thanks For PLaying ##");
  console.log("########################");
  

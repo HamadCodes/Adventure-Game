@@ -1,6 +1,6 @@
 {
-  "name": "adventure-game",
-  "version": "1.0.0",
+  "name": "hamadcodes-adventure-game",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
